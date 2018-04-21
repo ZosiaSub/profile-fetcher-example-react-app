@@ -1,25 +1,17 @@
 import React, { Component } from 'react';
 import { Container } from "./home.style";
 
+import Header from "../components/header/header.component";
+import Footer from "../components/footer/footer.component";
+
 class Home extends Component {
-    state = {
-        toggleBackground: true,
-    };
-
-    componentDidUpdate() {
-        console.log(this.state);
-    }
-
-    toggleBackground = () => {
-        this.setState({
-            toggleBackground: !this.state.toggleBackground,
-        })
-    }
 
     render() {
         return (
-            <Container onClick={this.toggleBackground} active={this.state.toggleBackground}>
+            <Container>
+                <Header />
                 home
+                <Footer />
             </Container>
         );
     }
