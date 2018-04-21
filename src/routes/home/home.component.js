@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
 //styles
-import { Container, UserLoginBox, UserInput, UserButton } from "./home.style";
-import { Wrapper } from "../utils/styles/global.style";
+import { Container, UserLoginBox, UserInput, UserButton, UsersList } from "./home.style";
+import { Wrapper } from "../../utils/styles/global.style";
 
 //components
-import Header from "../components/header/header.component";
-import Footer from "../components/footer/footer.component";
+import Header from "../../components/header/header.component";
+import Footer from "../../components/footer/footer.component";
 
 class Home extends Component {
     state = {
@@ -33,6 +33,8 @@ class Home extends Component {
         this.setState({userValue: event.target.value});
     };
 
+    renderUsers = () => this.state.users.map((item) => <div>{item}</div>);
+
 
 
     render() {
@@ -48,6 +50,7 @@ class Home extends Component {
                             Add user
                         </UserButton>
                     </UserLoginBox>
+                    <UsersList>{this.renderUsers()}</UsersList>
                 </Wrapper>
                 <Footer />
             </Container>

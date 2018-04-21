@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f73cec4e-fe25-423b-908d-3c42808be91a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/home.style.js" afterPath="$PROJECT_DIR$/src/routes/home.style.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/userDetails/userDetails.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/userDetails/userDetails.style.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/routes/home.component.js" afterPath="$PROJECT_DIR$/src/routes/home/home.component.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/routes/home.style.js" afterPath="$PROJECT_DIR$/src/routes/home/home.style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,14 +22,34 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="home.component.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/home.component.js">
+        <entry file="file://$PROJECT_DIR$/src/routes/home/home.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="396">
+              <caret line="52" column="50" lean-forward="false" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
               <folding>
-                <element signature="e#52#130#0" expanded="true" />
-                <element signature="e#201#260#0" expanded="true" />
+                <element signature="e#52#141#0" expanded="true" />
+                <element signature="e#215#277#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userDetails.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/userDetails/userDetails.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userDetails.style.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes/userDetails/userDetails.style.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.style.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/routes/home.style.js">
+      <file leaf-file-name="home.style.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/home/home.style.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="462">
+              <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -75,6 +100,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="develop" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="ZosiaSub" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="profile-fetcher-example-react-app" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -87,8 +117,11 @@
         <option value="$PROJECT_DIR$/src/components/footer/footer.component.js" />
         <option value="$PROJECT_DIR$/src/components/footer/footer.style.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/routes/home.component.js" />
         <option value="$PROJECT_DIR$/src/routes/home.style.js" />
+        <option value="$PROJECT_DIR$/src/routes/home.component.js" />
+        <option value="$PROJECT_DIR$/src/routes/home/home.component.js" />
+        <option value="$PROJECT_DIR$/src/routes/userDetails/userDetails.component.js" />
+        <option value="$PROJECT_DIR$/src/routes/userDetails/userDetails.style.js" />
       </list>
     </option>
   </component>
@@ -158,6 +191,20 @@
               <item name="profile-fetcher-example-react-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="profile-fetcher-example-react-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profile-fetcher-example-react-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profile-fetcher-example-react-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="userDetails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profile-fetcher-example-react-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profile-fetcher-example-react-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -182,6 +229,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/home" />
       <recent name="$PROJECT_DIR$/src/components/header" />
     </key>
   </component>
@@ -207,12 +255,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524291870160</updated>
-      <workItem from="1524291871248" duration="12286000" />
+      <workItem from="1524291871248" duration="15112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12286000" />
+    <option name="totallyTimeSpent" value="15112000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -347,24 +395,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/home.component.js">
+    <entry file="file://$PROJECT_DIR$/src/routes/home/home.style.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="462">
+          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
           <folding>
-            <element signature="e#52#130#0" expanded="true" />
-            <element signature="e#201#260#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/home.style.js">
+    <entry file="file://$PROJECT_DIR$/src/routes/home/home.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="396">
+          <caret line="52" column="50" lean-forward="false" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#52#141#0" expanded="true" />
+            <element signature="e#215#277#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/userDetails/userDetails.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/userDetails/userDetails.style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
