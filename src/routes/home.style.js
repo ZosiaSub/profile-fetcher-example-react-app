@@ -15,11 +15,20 @@ export const UserLoginBox = styled.div`
 `;
 
 export const UserInput = styled.input`
-    
-
+    border: 1px solid ${colors.light};
+    padding: 5px;
 `;
 
 export const UserButton = styled.button`
+    background: ${colors.dark};
+    border: 0;
+    padding: 6px;
+    color: ${colors.white};
+    margin-top: 15px;
+    cursor: pointer;
     
+    &:hover {
+        background: ${colors.medium};
+    }    
 
 `;
