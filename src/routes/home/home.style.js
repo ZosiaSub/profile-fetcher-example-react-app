@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from '../utils/styles/color.style';
+import { colors } from '../../utils/styles/color.style';
 
 export const Container = styled.div`
     background: 
@@ -31,4 +31,8 @@ export const UserButton = styled.button`
         background: ${colors.medium};
     }    
 
+`;
+
+export const UsersList = styled.div`
+    
 `;
